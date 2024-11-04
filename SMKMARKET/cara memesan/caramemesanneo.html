@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Langkah-Langkah Pemesanan - Neo Brutalism</title>
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom Neo Brutalism CSS */
+      .neo-card {
+        border: 0.5rem solid #05060f;
+        box-shadow: 0.5rem 0.5rem #05060f;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .neo-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0.6rem 0.6rem #05060f;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white py-4 px-6 border-b-4 border-black shadow-lg">
+      <div
+        class="container mx-auto flex items-center justify-between"
+        id="#nav"
+      >
+        <!-- Left Side: Brand -->
+        <div class="text-2xl font-bold text-black">
+          <a href="../mainpage.html">SMK MARKET</a>
+        </div>
+        <!-- Right Side: Links -->
+        <div class="flex space-x-4">
+          <a
+            href="../mainpage.html"
+            class="text-black font-bold hover:text-green-500"
+            >Home</a
+          >
+          <a
+            href="../portofolio/portofolio.html"
+            class="text-black font-bold hover:text-green-500"
+            >Tentang Kami</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-green-500 text-black py-10 border-b-4 border-black">
+      <div class="container mx-auto text-center">
+        <h1 class="text-5xl font-bold">Langkah-Langkah Pemesanan Barang</h1>
+        <p class="text-xl mt-4 font-semibold">
+          Ikuti panduan di bawah ini untuk melakukan pemesanan dengan mudah dan
+          cepat.
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16 px-6">
+      <div class="container mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold mb-4 text-black">
+            Cara Memesan Barang
+          </h2>
+          <p class="text-lg text-gray-800">
+            Kami telah menyusun langkah-langkah sederhana untuk membantu Anda
+            dalam melakukan pemesanan barang di SMK MARKET.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Step 1 -->
+          <div class="neo-card bg-green-300 p-6 rounded-lg">
+            <div class="flex items-center justify-center mb-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-black text-green-300 rounded-full"
+              >
+                <span class="text-2xl font-bold">1</span>
+              </div>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-black">Pilih Produk</h3>
+            <p class="text-black">
+              Jelajahi katalog produk kami dan pilih barang yang ingin Anda
+              pesan.
+            </p>
+          </div>
+          <!-- Step 2 -->
+          <div class="neo-card bg-green-300 p-6 rounded-lg">
+            <div class="flex items-center justify-center mb-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-black text-green-300 rounded-full"
+              >
+                <span class="text-2xl font-bold">2</span>
+              </div>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-black">
+              Lakukan Pemesanan
+            </h3>
+            <p class="text-black">
+              Anda Akan Langsung Diarahkan Ke Laman Kami Dan Lakukan Pemesanan.
+            </p>
+          </div>
+          <!-- Step 3 -->
+          <div class="neo-card bg-green-300 p-6 rounded-lg">
+            <div class="flex items-center justify-center mb-4">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-black text-green-300 rounded-full"
+              >
+                <span class="text-2xl font-bold">3</span>
+              </div>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-black">
+              Tunggu Konfirmasi
+            </h3>
+            <p class="text-black">
+              Tunggu konfirmasi Dan Barang Anda Telah Disiapkan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-500 text-black py-6 border-t-4 border-black">
+      <div class="container mx-auto text-center font-bold">
+        <p>&copy; 2024 SMK MARKET. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
